@@ -4,7 +4,7 @@ namespace HW03.Task3
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] arg)
         {
 
             Console.WriteLine("Write the year of birth yyyy: ");
