@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace HW03.Task1
 {
-    class Calculator
-    {
-      
-
-
-
-    }
+     class Calculator
+     {
+         
+        
+ 
+     }
 }
