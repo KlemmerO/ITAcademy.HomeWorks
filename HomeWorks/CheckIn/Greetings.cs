@@ -15,13 +15,13 @@ namespace CheckIn
             switch (currentTime.Hours)
             {
                 case int hour when (hour >= 8 && hour < 12):
-                    return timeOfDay = "morning";
+                    return timeOfDay = " morning";
                 case int hour when (hour >= 12 && hour < 15):
-                    return timeOfDay = "day";
+                    return timeOfDay = " day";
                 case int hour when (hour >= 15 && hour < 22):
-                    return timeOfDay = "evening";
-                default:
-                    return "night";
+                    return timeOfDay = " evening";
+                default: 
+                    return " night";
             }
         }
         public Greetings()
